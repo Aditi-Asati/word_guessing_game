@@ -36,7 +36,7 @@ for j in range(12):
         for i in l:
             empty_list[i] = my_guess
         current_guess_status = "".join(empty_list)
-        print(current_guess_status, f"\n{11-j} guesses left!")
+        print("\n\t", current_guess_status, f"\n\n{11-j} guesses left!")
 
         if "_" not in empty_list:
             print(f"Congrats! You have guessed the right word!\n You won in {j+1} attempts!")
@@ -45,4 +45,4 @@ for j in range(12):
     else:
         print(f"{my_guess} not in the word. Try again!\n{11-j} guesses left!\n")
         if empty_list.count("_") != total_len:
-            print(current_guess_status)
+            print("\n\t" ,current_guess_status, "\n")
