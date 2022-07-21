@@ -2,7 +2,7 @@
 
 In this game, there is a list of words present, out of which our interpreter will choose 1 random word. The player has to guess the word that the computer has chosen randomly by guessing a letter in each turn.
 
-## Description of the game
+## Implementation
 
 1. The user has to first input 12 names and then, the computer will randomly choose one word among the list of 12 words.
 2. You will be asked to guess an alphabet in each attempt. 
